@@ -16,7 +16,7 @@ const Projects: React.FC = () => {
 
   return (
     <main className="bg-projects h-full p-20 flex flex-col items-center justify-center gap-20" id='projects'>
-      <h2 className='text-7xl'>Portifólio de Projetos</h2>
+      <h2 className='text-7xl'><strong>Portifólio de Projetos</strong></h2>
       <div className="grid grid-cols-4 gap-4 p-4">
         {projects.map((project, index) => (
           <ProjectCard key={index} {...project} />
