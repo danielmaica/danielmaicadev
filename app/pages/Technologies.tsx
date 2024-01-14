@@ -3,7 +3,7 @@ import React from 'react';
 
 const Technologies: React.FC = () => {
   return (
-    <main className="bg-technologies h-full p-20 flex flex-col items-center justify-start gap-20" id='technologies'>
+    <main className="bg-technologies h-screen p-20 flex flex-col items-center justify-start gap-20" id='technologies'>
       <section id="tecnologias" className="h-5/6 w-5/6  p-8 flex flex-col gap-20">
         <h2 className="text-center text-7xl"><strong>Trabalho com as tecnologias:</strong></h2>
         

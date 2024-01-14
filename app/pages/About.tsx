@@ -3,7 +3,7 @@ import React from 'react';
 
 const About: React.FC = () => {
   return (
-    <main className="bg-about h-full p-20 flex items-center justify-center gap-20" id='about'>
+    <main className="bg-about h-screen p-20 flex items-center justify-center gap-20" id='about'>
       <div className="">
         <img className='rounded-full img-shadow' width="450rem" src="./me.jpg" alt="foto de daniel" />
       </div>
