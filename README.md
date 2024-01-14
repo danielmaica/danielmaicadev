@@ -15,10 +15,3 @@ O site possui várias seções, incluindo:
 
 - Next.js
 - Tailwind CSS
-
-## Como Executar o Projeto
-
-1. **Clone o repositório:**
-   ```bash
-   git clone https://github.com/seu-usuario/meu-site.git
-   cd meu-site
