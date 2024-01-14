@@ -5,7 +5,7 @@ import './globals.css'
 const font = Montserrat({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'devdanielmaica',
+  title: 'danielmaicadev',
   description: 'Developed by Daniel Maicá',
 }
 
