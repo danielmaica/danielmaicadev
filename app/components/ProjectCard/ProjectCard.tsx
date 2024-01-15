@@ -1,5 +1,6 @@
 // components/ProjectCard.tsx
 import Link from 'next/link';
+import './ProjectCard.css'
 
 interface ProjectCardProps {
   title: string;
@@ -10,10 +11,13 @@ interface ProjectCardProps {
 const ProjectCard: React.FC<ProjectCardProps> = ({ title, thumbnail, link }) => {
   return (
     <Link href={link}>
-        <div className="bg-purple-500 h-full w-full p-4 rounded-md shadow-md">
-          <img src={thumbnail} alt={title} className="w-full h-48 object-cover rounded-md mb-4" />
-          <h3 className="text-white text-lg font-bold text-center">{title}</h3>
-        </div>
+
+      <div className="card flex flex-col gap-2 p-4 rounded-md justify-center hover:scale-105">
+        <img src={thumbnail} alt={title} className=" object-cover rounded-full" />
+        <h3 className="text-2xl font-bold text-center" style={{color: "#4A148C"}}>{title}</h3>
+        <p className='text-justify'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem laborum recusandae ut esse? Laborum exercitationem dolorem quis enim dicta quod! Molestiae aut nemo, dolores provident repudiandae quae ex molestias exercitationem?</p>
+      </div>
+
     </Link>
   );
 };
