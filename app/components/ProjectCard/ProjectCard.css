@@ -1,14 +1,14 @@
 .card {
-  background: linear-gradient(135deg, #d88bf7 10%, #FFF59D 100%);
+  background: linear-gradient(3605deg, #d88bf7 10%, #f5ec6c 100%);
   height: 30rem;
   width: 20rem;
   /* overflow: hidden; */
   font-weight: 500;
-  transition: ease-out 0.7s;
+  transition: ease-out 0.8s;
   color: #7c09da;
 }
 
 .card:hover {
-  background: linear-gradient(135deg, #9900CC 2%, #FFFF33 100%);
-  color: #660085;
+  background: linear-gradient(360deg, #7c09da 20%, #f5ec6c 100%);
+  color: #ffffff;
 }

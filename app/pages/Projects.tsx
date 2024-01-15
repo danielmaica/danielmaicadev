@@ -1,17 +1,17 @@
 import React from 'react';
-import ProjectCard from '../components/ProjectCard/ProjectCard';
+import ProjectCard from '../components/ProjectCard/ProjectCard'
 
 const Projects: React.FC = () => {
   const projects = [
     // Adicione mais projetos conforme necessário
-    { title: 'Projeto', thumbnail: 'https://josevictoremiliano.github.io/meuportifolio/img/breve.png', link: '' },
-    { title: 'Projeto', thumbnail: 'https://josevictoremiliano.github.io/meuportifolio/img/breve.png', link: '' },
-    { title: 'Projeto', thumbnail: 'https://josevictoremiliano.github.io/meuportifolio/img/breve.png', link: '' },
-    { title: 'Projeto', thumbnail: 'https://josevictoremiliano.github.io/meuportifolio/img/breve.png', link: '' },
-    { title: 'Projeto', thumbnail: 'https://josevictoremiliano.github.io/meuportifolio/img/breve.png', link: '' },
-    { title: 'Projeto', thumbnail: 'https://josevictoremiliano.github.io/meuportifolio/img/breve.png', link: '' },
-    { title: 'Projeto', thumbnail: 'https://josevictoremiliano.github.io/meuportifolio/img/breve.png', link: '' },
-    { title: 'Projeto', thumbnail: 'https://josevictoremiliano.github.io/meuportifolio/img/breve.png', link: '' },
+    { title: 'Doctor Care', thumbnail: 'https://i.ibb.co/zRYVBXb/doctor-care-thumb.png', link: 'https://doctor-care-snowy.vercel.app/', description: 'Página desenvolvida com base em um projeto dedicado a atender as necessidades específicas de clínicas, hospitais, veterinárias e demais empreendimentos que atuam nestes nichos. Nosso design e funcionalidades foram cuidadosamente pensados destacando os serviços, expertise e valores distintivos desses estabelecimentos.' },
+    { title: 'Projeto', thumbnail: 'https://josevictoremiliano.github.io/meuportifolio/img/breve.png', link: '', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tristique justo vel ligula sodales, a vestibulum ligula congue. Curabitur bibendum, quam in bibendum tempus, ex nulla suscipit orci, vel tristique dolor leo eu libero.' },
+    { title: 'Projeto', thumbnail: 'https://josevictoremiliano.github.io/meuportifolio/img/breve.png', link: '', description: 'Suspendisse nec justo vel ex sagittis pellentesque eu ac mauris. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam erat volutpat. Ut ut nulla non dolor fermentum malesuada.' },
+    { title: 'Projeto', thumbnail: 'https://josevictoremiliano.github.io/meuportifolio/img/breve.png', link: '', description: 'Praesent sit amet tellus nec odio vehicula ultricies. Sed sollicitudin metus nec elit euismod, a finibus ex bibendum. Maecenas vitae bibendum ipsum. Nullam euismod tortor vel arcu volutpat, eu interdum dui tristique.' },
+    { title: 'Projeto', thumbnail: 'https://josevictoremiliano.github.io/meuportifolio/img/breve.png', link: '', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tristique justo vel ligula sodales, a vestibulum ligula congue. Curabitur bibendum, quam in bibendum tempus, ex nulla suscipit orci, vel tristique dolor leo eu libero.' },
+    { title: 'Projeto', thumbnail: 'https://josevictoremiliano.github.io/meuportifolio/img/breve.png', link: '', description: 'Suspendisse nec justo vel ex sagittis pellentesque eu ac mauris. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam erat volutpat. Ut ut nulla non dolor fermentum malesuada.' },
+    { title: 'Projeto', thumbnail: 'https://josevictoremiliano.github.io/meuportifolio/img/breve.png', link: '', description: 'Praesent sit amet tellus nec odio vehicula ultricies. Sed sollicitudin metus nec elit euismod, a finibus ex bibendum. Maecenas vitae bibendum ipsum. Nullam euismod tortor vel arcu volutpat, eu interdum dui tristique.' },
+    { title: 'Projeto', thumbnail: 'https://josevictoremiliano.github.io/meuportifolio/img/breve.png', link: '', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tristique justo vel ligula sodales, a vestibulum ligula congue. Curabitur bibendum, quam in bibendum tempus, ex nulla suscipit orci, vel tristique dolor leo eu libero.' },
   ];
 
   return (

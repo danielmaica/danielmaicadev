@@ -8,10 +8,10 @@ const Header: React.FC = () => {
         <img src="/logo-devdanielmaica.svg" alt="Logo" className="w-400 h-8 mr-2" />
         
         <nav className="flex items-center space-x-4">
-          <a href="#about" className="hover:text-purple-500 hover:cursor-pointer">Sobre</a>
-          <a href="#technologies" className="hover:text-purple-500 hover:cursor-pointer">Tecnologias</a>
-          <a href="#projects" className="hover:text-purple-500 hover:cursor-pointer">Projetos</a>
-          <a href="#contact" className="hover:text-purple-500 hover:cursor-pointer">Contato</a>
+          <a href="#about" className="hover:text-yellow-400 hover:cursor-pointer">Sobre</a>
+          <a href="#technologies" className="hover:text-yellow-400 hover:cursor-pointer">Tecnologias</a>
+          <a href="#projects" className="hover:text-yellow-400 hover:cursor-pointer">Projetos</a>
+          <a href="#contact" className="hover:text-yellow-400 hover:cursor-pointer">Contato</a>
         </nav>
       </div>
     </header>
